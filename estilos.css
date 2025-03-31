@@ -73,3 +73,7 @@ p::first-letter{
     height: 100px;
     background-color: violet;
 }
+
+.padre p{
+    color:red;
+}
