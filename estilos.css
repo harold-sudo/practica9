@@ -1,4 +1,4 @@
-div{
+/*div{
     width: 150px;
     height: 150px;
     background-color: yellowgreen;
@@ -18,8 +18,8 @@ p{
     width: 150px;
     height: 150px;
     background-color: rgba(0,0,255,0.5);
-    /*position: fixed;
-    top:0;*/
+    --position: fixed;
+    --top:0;
 }
 
 .una_caja_mas{
@@ -31,7 +31,7 @@ p{
 .capibara{
     width: 150px;
     height: 150px;
-    /*background-color: hsla(0, 100%, 50%, 0.5);*/
+    --background-color: hsla(0, 100%, 50%, 0.5);
     background-color: hsla(0, 68%, 63%);
 }
 
@@ -76,4 +76,87 @@ p::first-letter{
 
 .padre p{
     color:red;
+}
+*/
+
+/*p#unico.foo.bar{
+    color: green;
+}
+
+p#unico.foo{
+    color: red;
+}
+
+p#unico.foo.bar.baz{
+    color: yellowgreen;
+    --color: xxx !important;
+}
+*/
+
+/*p#unico.foo.bar{
+    color:green;
+}
+
+p#unico.foo.bar.baz{
+    color:orange !important;
+}
+
+.main{
+    color:rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special{
+    color:red;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15,125,36);
+}
+
+.caja-interior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.caja-interior p{
+    font-size: 5rem;
+}
+
+div{
+    width: 50vw;
+    height: 50vh;
+    background-color:aqua;
+}
+*/
+body{
+    margin: 0;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    /*padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;*/
+    padding: 25px;
+    /*border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-bottom: 12px dashed green;
+    border-top: 12px solid green;*/
+    border: 12px solid yellow;
+    margin: 25px;
 }
